@@ -14,11 +14,16 @@ function nowServing(katzDeli) {
 
 function currentLine(line) {
   var i = 0;
-  if (line.length === 0) {
-    return "The line is currently empty.";
-  }
-  else {
+  if (line.length > 0) {
     return "The line is currently: "
   }
+  else {
+    return "The line is currently empty."
+    while (i < line.length) {
+      return `${i+1}. ${line[i]}` 
+      i++;
+    }
+  }
+
 
 }
