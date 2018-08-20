@@ -24,6 +24,4 @@ function currentLine(line) {
       i++;
     }
   }
-
-
 }
