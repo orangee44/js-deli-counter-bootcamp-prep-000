@@ -14,8 +14,10 @@ function nowServing(katzDeli) {
 
 function currentLine(line) {
   if (line.length > 0) {
-    for (var i=0; i<line.length; i++) {
+    var i = 0;
+    while (line.length > 0) {
       return `${i+1}. ${line[i]} `
+      i ++;
     }
   }
   else {
