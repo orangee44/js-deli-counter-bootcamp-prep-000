@@ -21,6 +21,7 @@ function currentLine(line) {
     return "The line is currently: "
   }
   while (i < line.length) {
+    var katzDeli = [];
     return `${i+1} ${line[i]}` 
     i++;
   }
